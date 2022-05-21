@@ -8,24 +8,6 @@ Ngix est le serveur que nous avons utilisé, car le service http apache est l'ex
 
 Nous avons décider de faire une plateforme de vidéo à la demander concernant les animés, c'est à dire des vidéos qui retranscrit un manga. On a choisit ce thèmecar dans notre groupe les 4 membres du projet sont tous fans des mangas
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Jekyll Themes
