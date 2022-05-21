@@ -1,12 +1,12 @@
-# Vidéo à la demande  
+ # Vidéo à la demande  
 
 ## Serveur
 
 Ngix est le serveur que nous avons utilisé, car le service http apache est l'exemple vu en cours. Nous avions envie d'élargir nos connaissance en changeant le serveur 
 
-### Markdown
+## Plateforme
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Nous avons décider de faire une plateforme de vidéo à la demander concernant les animés, c'est à dire des vidéos qui retranscrit un manga. On a choisit ce thèmecar dans notre groupe les 4 membres du projet sont tous fans des mangas
 
 ```markdown
 Syntax highlighted code block
