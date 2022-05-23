@@ -27,3 +27,4 @@ Et on verifie si notre containers c'est bien avec la commande : docker ps
 Qui affiche toutes les instances de docker qui tournent actuellement sur notre environnement. 
 ![dockerps.png](/docs/assets/images/dockerps.png)
 
+
