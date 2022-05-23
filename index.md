@@ -21,6 +21,7 @@ Docker est une plateforme sur laquelle il est possible de lancer certaines appli
 
 Tout d'abord il faut créer une image pour cela on utilise la commande : docker build -t img-ilian .
 ![build.png](/docs/assets/images/build.png)
+
 Ici l'image a été créé avec succès.
 Nous pouvons maintenant lancer notre containers avec la commande : docker run --name SAE -d -p 23164:80 img-ilian
 Et on verifie si notre containers c'est bien avec la commande : docker ps  
