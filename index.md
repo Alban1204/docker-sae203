@@ -1,4 +1,4 @@
-# Vidéo à la demande  
+[center]Vidéo à la demande[/center]
 
 ## Serveur
 
