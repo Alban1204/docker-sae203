@@ -4,7 +4,7 @@
 
 Nginx est le serveur que nous avons utilisé, car le service http apache est l'exemple vu en cours. Nous avions envie d'élargir nos connaissance en changeant le serveur, passant donc de apache à nginx. Pour cela, nous avons modifié le Dockerfile. On peut voir ci-dessous le Dockerfile modifié, qui nous permet d'utiliser nginx.
 
-![build.png](/docs/assets/images/build.png)
+![dockerfile.png](/docs/assets/images/dockerfile.png)
 
 ## Plateforme
 
