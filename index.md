@@ -2,7 +2,7 @@
 
 ## Serveur
 
-Nginx est le serveur que nous avons utilisé, car le service http apache est l'exemple vu en cours. Nous avions envie d'élargir nos connaissance en changeant le serveur 
+Nginx est un serveur web open-source, que nous avons utilisé, car le service http apache est l'exemple vu en cours. Nous avions envie d'élargir nos connaissance en changeant le serveur 
 
 ![build.png](/docs/assets/images/build.png)
 
