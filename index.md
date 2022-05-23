@@ -22,6 +22,12 @@ Qui affiche toutes les instances de docker qui tournent actuellement sur notre e
 
 ![dockerps.png](/docs/assets/images/dockerps.png)
 
+Pour acceder à notre site il suffit de taper dans la barre de recherche d'un navigateur web la ligne : **di-docker:23164** ( les numeros correspondent au port d'hote que nous avons utiliser pour run le containers)
+Voici le résultat : 
+
+![site.png](/docs/assets/images/site.png)
+
+
 ## En quoi consiste docker
 Docker est une plateforme sur laquelle il est possible de lancer certaines applications 
 
