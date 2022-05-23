@@ -6,17 +6,6 @@ Nginx est le serveur que nous avons utilisé, car le service http apache est l'e
 
 ![dockerfile.png](/docs/assets/images/dockerfile.png)
 
-## Plateforme
-
-Nous avons décider de faire une plateforme de vidéo à la demande concernant les animés, c'est à dire des vidéos qui retranscrivent un manga. On a choisi ce thème car yous les membres du projet sont fans de mangas et d'animés. Nous avons donc pris les trois plus gros animés et avons ajouté une petite vidéo de présentation. Cette vidéo sert d'exemple pour notre site de vidéo à la demande. Elles sont courtes pour pouvoir être hébergés sur docker sans problèmes.
-
-
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-## En quoi consiste docker
-Docker est une plateforme sur laquelle il est possible de lancer certaines applications 
-
 ## Lancement de notre serveur video à la demande
 
 Tout d'abord il faut créer une image pour cela on utilise la commande : docker build -t img-ilian .
@@ -30,4 +19,9 @@ Qui affiche toutes les instances de docker qui tournent actuellement sur notre e
 
 ![dockerps.png](/docs/assets/images/dockerps.png)
 
+## Plateforme
 
+Nous avons décider de faire une plateforme de vidéo à la demande concernant les animés, c'est à dire des vidéos qui retranscrivent un manga. On a choisi ce thème car yous les membres du projet sont fans de mangas et d'animés. Nous avons donc pris les trois plus gros animés et avons ajouté une petite vidéo de présentation. Cette vidéo sert d'exemple pour notre site de vidéo à la demande. Elles sont courtes pour pouvoir être hébergés sur docker sans problèmes.
+
+## En quoi consiste docker
+Docker est une plateforme sur laquelle il est possible de lancer certaines applications 
