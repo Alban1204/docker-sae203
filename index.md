@@ -8,7 +8,7 @@ Ngix est le serveur que nous avons utilisé, car le service http apache est l'ex
 
 Nous avons décider de faire une plateforme de vidéo à la demander concernant les animés, c'est à dire des vidéos qui retranscrit un manga. On a choisit ce thèmecar dans notre groupe les 4 membres du projet sont tous fans des mangas
 
-![build](https://github.com/Alban1204/docker-sae203/blob/gh-pages/docs/assets/images/build.png)
+![build.png](https://github.com/Alban1204/docker-sae203/blob/gh-pages/docs/assets/images/build.png)
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
