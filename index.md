@@ -4,7 +4,7 @@
 
 Nginx est le serveur web open-source, que nous avons utilisé, car le service http apache est l'exemple vu en cours. Nous avions envie d'élargir nos connaissance en changeant le serveur 
 
-![build.png](/docs/assets/images/build.png)
+![dockerfile.png](/docs/assets/images/dockerfile.png)
 
 ## Plateforme
 
