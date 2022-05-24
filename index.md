@@ -16,14 +16,14 @@ Tout d'abord, il faut créer une image pour cela on utilise la commande : **dock
 ![build.png](/docs/assets/images/build.png)
 
 Ici l'image a été créé avec succès.
-Nous pouvons maintenant lancer notre container avec la commande : **docker run --name SAE -d -p 23164:80 img-ilian**
+Nous pouvons maintenant lancer notre conteneur avec la commande : **docker run --name SAE -d -p 23164:80 img-ilian**
 
-Et on vérifie si notre container s'est bien lancé avec la commande : **docker ps**
+Et on vérifie si notre conteneur s'est bien lancé avec la commande : **docker ps**
 Cette commande affiche toutes les instances de docker qui tournent actuellement sur notre environnement. 
 
 ![dockerps.png](/docs/assets/images/dockerps.png)
 
-Pour accéder à notre site, il suffit de taper dans la barre de recherche d'un navigateur web la ligne : **di-docker:23164** ( les numeros correspondent au port d'hote que nous avons utiliser pour run le containers)
+Pour accéder à notre site, il suffit de taper dans la barre de recherche d'un navigateur web la ligne : **di-docker:23164** ( les numeros correspondent au port d'hote que nous avons utiliser pour run le conteneur)
 
 Voici le résultat : 
 
