@@ -38,7 +38,7 @@ Docker consiste donc à pouvoir lancer à l'intérieur de sa propre machine (de 
 
 ## GitHub
 
-Lors de ce projet nous avons travaillé avec github. GitHub permet aux développeurs de stocker et de partager, publiquement ou non, le code qu’ils créent. Pour qu'un utilisateur récupère notre projet il doit juste faire un git clone git@github.com:Alban1204/docker-sae203.git et le dossier docker-sae203 sera sur votre pc.
+Lors de ce projet nous avons travaillé avec github. GitHub permet aux développeurs de stocker et de partager, publiquement ou non, le code qu’ils créent. Pour qu'un utilisateur récupère notre projet il suffit de faire un git clone git@github.com:Alban1204/docker-sae203.git et le dossier docker-sae203 sera sur votre pc.
 
 ## Pourquoi cette plateforme ?
 
