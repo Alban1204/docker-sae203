@@ -43,4 +43,4 @@ Nous avons décidé de faire une plateforme de vidéo à la demande concernant l
 ## Difficultés rencontrés
 
 - La compréhension du sujet et de ce qu'il fallait a été une tâche complexe, puisque aucun des membres de notre groupe n'a su répondre de façon claire et précise à ce qu'attendais les professeurs, c'est pour ça que pour surmonter cette difficulté nous avons fait appel à un professeur qui nous a expliqué que représentais réellement docker, ce qui nous a permis de comprendre le but de l'exercice qui était de lancer un serveur de façon, et pour notre projet il s'agissait de présenter un site avec des vidéos disponibles localement.
-- La deuxième réelle difficulté rencontré et celle de l'utilisation de NGINX, au tout départ nous pensions que utiliser Apache2 était suffisant pour avoir réussi le projet, néanmoins ce n'était que du copié-collé des cours d'introduction à docker de Mr Jimenez
+- La deuxième réelle difficulté rencontré et celle de l'utilisation de NGINX, au tout départ nous pensions que utiliser Apache2 était suffisant pour avoir réussi le projet, néanmoins ce n'était que du copié-collé des cours d'introduction à docker de Mr Jimenez 
