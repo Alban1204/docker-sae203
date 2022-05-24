@@ -40,4 +40,7 @@ Docker consiste donc à pouvoir lancer à l'intérieur de sa propre machine (de 
 
 Nous avons décidé de faire une plateforme de vidéo à la demande concernant les animés, c'est-à-dire des vidéos qui retranscrivent un manga. On a choisi ce thème car tous les membres du projet sont fans de mangas et d'animés. Nous avons donc pris les trois plus gros animés et avons ajouté une petite vidéo de présentation. Cette vidéo sert d'exemple pour notre site de vidéo à la demande. Elles sont courtes pour pouvoir être hébergés sur docker sans problèmes.
 
+## Difficultés rencontrés
 
+- La compréhension du sujet et de ce qu'il fallait a été une tâche complexe, puisque aucun des membres de notre groupe n'a su répondre de façon claire et précise à ce qu'attendais les professeurs, c'est pour ça que pour surmonter cette difficulté nous avons fait appel à un professeur qui nous a expliqué que représentais réellement docker, ce qui nous a permis de comprendre le but de l'exercice qui était de lancer un serveur de façon, et pour notre projet il s'agissait de présenter un site avec des vidéos disponibles localement.
+- La deuxième réelle difficulté rencontré et celle de l'utilisation de NGINX, au tout départ nous pensions que utiliser Apache2 était suffisant pour avoir réussi le projet, néanmoins ce n'était que du copié-collé des cours d'introduction à docker de Mr Jimenez
