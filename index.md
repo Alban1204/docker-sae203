@@ -36,7 +36,7 @@ Comment cela fonctionne ? Docker est un endroit dans lequel il est possible de c
 Ensuite il est aussi possible de créer des images qui sont lancés grâce aux conteneurs, pour se faire il existe une commande qu'il faut éxecuter avant le lancement d'un conteneur et pour associer le conteneur à la machine il suffit juste de mettre le nom de l'image à la fin de la commande. Mais il ne suffit pas de lancer l'image pour avoir accés à toutes les données d'un serveur, c'est dans le dockerfile de l'image que se trouve les commandes permettant de copier le dossier du serveur et d'installer les serveurs comme apache2 ou NGINX.
 Docker consiste donc à pouvoir lancer à l'intérieur de sa propre machine (de façon local) un site web ou un serveur par exemple.
 
-## Pourquoi cette plateforme
+## Pourquoi cette plateforme ?
 
 Nous avons décidé de faire une plateforme de vidéo à la demande concernant les animés, c'est-à-dire des vidéos qui retranscrivent un manga. On a choisi ce thème car tous les membres du projet sont fans de mangas et d'animés. Nous avons donc pris les trois plus gros animés et avons ajouté une petite vidéo de présentation. Cette vidéo sert d'exemple pour notre site de vidéo à la demande. Elles sont courtes pour pouvoir être hébergés sur docker sans problèmes.
 
