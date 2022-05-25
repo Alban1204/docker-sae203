@@ -10,7 +10,8 @@
 Docker est une plateforme qui permet de lancer des applications dans des conteneurs. Un conteneur est un format d’empaquetage qui regroupe tout le code et toutes ses dépendances afin que l'application s'exécute rapidement et de manière fiable d'un environnement informatique à un autre.
 Il est lancé à partir d’une image qui est à la base du système.  
 Ces conteneurs sont locales c'est-à-dire qu'on peut y avoir accès sur notre propre machine, il suffit de mettre le port, par exemple pour les machines de l'IUT, 23164 (un chiffre trouvé en fonction du nom et prenom) : 80 qui permet d'avoir le port initial de la machine de l'IUT.
-Ensuite il est aussi possible de créer des images qui sont lancés grâce aux conteneurs, pour ce faire, il existe une commande qu'il faut exécuter avant le lancement d'un conteneur et pour associer le conteneur à la machine il suffit de mettre le nom de l'image à la fin de la commande. Mais il ne suffit pas de lancer l'image pour avoir accès à toutes les données d'un serveur, c'est dans le dockerfile de l'image que se trouve les commandes permettant de copier le dossier du serveur et d'installer les serveurs comme apache2 ou NGINX.
+Ensuite il est aussi possible de créer des images qui sont lancés grâce aux conteneurs, pour ce faire, il existe une commande qu'il faut exécuter avant le lancement d'un conteneur et pour associer le conteneur à la machine il suffit de mettre le nom de l'image à la fin de la commande.  
+Mais il ne suffit pas de lancer l'image pour avoir accès à toutes les données d'un serveur, c'est dans le dockerfile de l'image que se trouve les commandes permettant de copier le dossier du serveur et d'installer les serveurs comme apache2 ou NGINX.
 Docker consiste donc à pouvoir lancer à l'intérieur de sa propre machine (de façon local) un site web ou un serveur par exemple.
 
 ### Serveur
