@@ -41,7 +41,8 @@ RUN echo index.html
 EXPOSE 80
 
 CMD ["nginx","-g","daemon off;"]
-```
+```  
+
 
 ### Lancement de notre serveur video à la demande
 
