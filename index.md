@@ -1,9 +1,9 @@
-*SAE 2.03 : Installation de services reseau*
+#*SAE 2.03 : Installation de services reseau*
 ------------------------------------------
 
-# Vidéo à la demande
+## Vidéo à la demande
 
-## Serveur
+### Serveur
 
 Nginx est le serveur que nous avons utilisé, car le service http apache est l'exemple vu en cours. Nous avions envie d'élargir nos connaissances en changeant le serveur, passant donc de apache à nginx. Pour cela, nous avons modifié le Dockerfile. On peut voir ci-dessous le Dockerfile modifié, qui nous permet d'utiliser nginx.
 Pour commencer, nous avons modifié la 3ème ligne du deuxième paragraphe de "apache2" en "nginx", ce qui nous permet de changer d'application. 
@@ -32,7 +32,7 @@ EXPOSE 80
 CMD ["nginx","-g","daemon off;"]
 ```
 
-## Lancement de notre serveur video à la demande
+### Lancement de notre serveur video à la demande
 
 Tout d'abord, il faut créer une image pour cela on utilise la commande : **docker build -t img-ilian .**
 
@@ -53,21 +53,21 @@ Voici le résultat :
 ![site.png](/docs/assets/images/site.png)
 
 
-## En quoi consiste docker
+### En quoi consiste docker
 Docker est une plateforme sur laquelle il est possible de lancer certaines applications. Par exemple des applications comme Apache2 ou encore NGINX, pour ce projet nous avons donc utilisé NGINX.
 Comment cela fonctionne ? Docker est un endroit dans lequel il est possible de créer des conteneurs et dans ces conteneurs il peut y avoir des images, ces conteneurs sont locales c'est-à-dire qu'on peut y avoir accès sur notre propre machine, il suffit juste de mettre le port, par exemple pour les machines de l'IUT, 23164 (un chiffre au hasard) : 80 qui permet d'avoir le port initial de la machine de l'IUT.
 Ensuite il est aussi possible de créer des images qui sont lancés grâce aux conteneurs, pour ce faire, il existe une commande qu'il faut exécuter avant le lancement d'un conteneur et pour associer le conteneur à la machine il suffit juste de mettre le nom de l'image à la fin de la commande. Mais il ne suffit pas de lancer l'image pour avoir accès à toutes les données d'un serveur, c'est dans le dockerfile de l'image que se trouve les commandes permettant de copier le dossier du serveur et d'installer les serveurs comme apache2 ou NGINX.
 Docker consiste donc à pouvoir lancer à l'intérieur de sa propre machine (de façon local) un site web ou un serveur par exemple.
 
-## GitHub
+### GitHub
 
 Lors de ce projet nous avons travaillé avec github. GitHub permet aux développeurs de stocker et de partager, publiquement ou non, le code qu’ils créent. Pour qu'un utilisateur récupère notre projet il suffit de faire un git clone git@github.com:Alban1204/docker-sae203.git et le dossier docker-sae203 sera sur votre pc.
 
-## Pourquoi cette plateforme ?
+### Pourquoi cette plateforme ?
 
 Nous avons décidé de faire une plateforme de vidéo à la demande concernant les animés, c'est-à-dire des vidéos qui retranscrivent un manga. On a choisi ce thème car tous les membres du projet sont fans de mangas et d'animés. Nous avons donc pris les trois plus gros animés et avons ajouté une petite vidéo de présentation. Cette vidéo sert d'exemple pour notre site de vidéo à la demande. Elles sont courtes pour pouvoir être hébergés sur docker sans problèmes.
 
-## Difficultés rencontrés
+### Difficultés rencontrés
 
 - La compréhension du sujet et de ce qu'il fallait faire a été une tâche complexe, puisque aucun des membres de notre groupe n'a su répondre de façon claire et précise à ce qu'attendais les professeurs, c'est pour ça que pour surmonter cette difficulté nous avons fait appel à un professeur qui nous a expliqué que représentais réellement docker, ce qui nous a permis de comprendre le but de l'exercice qui était de lancer un serveur de façon, et pour notre projet il s'agissait de présenter un site avec des vidéos disponibles localement.
 
