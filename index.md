@@ -36,6 +36,7 @@ CMD ["nginx","-g","daemon off;"]
 ### Lancement de notre serveur video à la demande
 
 Tout d'abord, il faut créer une image pour cela on utilise la commande : **docker build -t img-ilian .**
+Une image Docker est un modèle en lecture seule, utiliser pour créer des conteneurs Docker.
 
 ![build.png](/docs/assets/images/build.png)
 
