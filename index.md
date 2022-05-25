@@ -42,7 +42,8 @@ Tout d'abord, il faut créer une image pour cela on utilise la commande : **dock
 Ici l'image a été créé avec succès.
 Nous pouvons maintenant lancer notre conteneur avec la commande : **docker run --name SAE -d -p 23164:80 img-ilian**
 
-Et on vérifie si notre conteneur s'est bien lancé avec la commande : **docker ps**
+Et on vérifie si notre conteneur s'est bien lancé avec la commande : **docker ps**.
+
 Cette commande affiche toutes les instances de docker qui tournent actuellement sur notre environnement. 
 
 ![dockerps.png](/docs/assets/images/dockerps.png)
