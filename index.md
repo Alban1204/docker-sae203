@@ -74,3 +74,9 @@ Nous avons décidé de faire une plateforme de vidéo à la demande concernant l
 - La compréhension du sujet et de ce qu'il fallait faire a été une tâche complexe, puisque aucun des membres de notre groupe n'a su répondre de façon claire et précise à ce qu'attendais les professeurs, c'est pour ça que pour surmonter cette difficulté nous avons fait appel à un professeur qui nous a expliqué que représentais réellement docker, ce qui nous a permis de comprendre le but de l'exercice qui était de lancer un serveur de façon, et pour notre projet il s'agissait de présenter un site avec des vidéos disponibles localement.
 
 - La deuxième réelle difficulté rencontré et celle de l'utilisation de NGINX, au tout départ nous pensions qu'utiliser Apache2 était suffisant pour avoir réussi le projet, néanmoins ce n'était que du copier-collé des cours d'introduction à docker de Mr Jimenez, donc il a fallu découvrir un serveur différent de Apache2, grâce aux aides de Mr Jimenez nous avons trouvé le serveur NGINX, pour réussir à le lancer nous avons cherché sur internet quelles étaient les commandes nécessaires au lancement du serveur, et aussi en demandant à des camarades.
+
+### Conclusion
+
+Grâce à cette SAE nous avons pu découvrir l’utilité et le fonctionnement de Docker. De plus nous avons aussi améliorer nos capacité à utiliser git hub.
+Enfin nous avons réussi à héberger un site html de vidéo à la demande 
+
