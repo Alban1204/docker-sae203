@@ -7,7 +7,7 @@ Pour commencer, nous avons modifié la 3ème ligne du deuxième paragraphe de "a
 Mais ce n'est pas tout, il manque des choses pour que nginx puisse fonctionner. Nous avons alors ajouté la commande **RUN echo index.html** ce qui nous permet de lancer notre site internet, puis modifié la dernière ligne, la commande CMD, en passant de *CMD ["/usr/sbin/apache2ctl","-DFOREGROUND"]* à *CMD ["nginx", "-g", "daemon off;"]*.
 Cette ligne a été obtenu en faisant des recherches sur internet à propos des condition nécessaires au bon fonctionnement de nginx.
 
-'# Utiliser l'image http# Utiliser l'image httpd officielle commd officielle comme image parent
+''# Utiliser l'image http# Utiliser l'image httpd officielle commd officielle comme image parent
 FROM debian:latest
 
 RUN  apt-get update && \
@@ -25,7 +25,7 @@ RUN echo index.html
 # Rendre le port 80 accessible au monde en dehors de ce conteneur
 EXPOSE 80
 
-CMD ["nginx","-g","daemon off;"]'
+CMD ["nginx","-g","daemon off;"] ''
 
 ![dockerfile.png](/docs/assets/images/dockerfile.png)
 
