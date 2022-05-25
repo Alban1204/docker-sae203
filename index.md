@@ -79,6 +79,6 @@ Nous avons décidé de faire une plateforme de vidéo à la demande concernant l
 
 ### Conclusion
 
-Grâce à cette SAE nous avons pu découvrir l’utilité et le fonctionnement de Docker. De plus nous avons aussi améliorer nos capacité à utiliser git hub.
+Grâce à cette SAE nous avons pu découvrir l’utilité et le fonctionnement de Docker. De plus nous avons aussi améliorer nos capacité à utiliser github.
 Enfin nous avons réussi à héberger un site html de vidéo à la demande 
 
